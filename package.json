@@ -1,0 +1,28 @@
+{
+  "name": "handlebars-experimentation",
+  "version": "0.0.1",
+  "description": "Experimenting with Handlebars partials.",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "gulp --dev",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-buster": "^1.1.0",
+    "gulp-cache-bust": "^1.1.0",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev-mtime": "0.0.4",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
+    "gulp-rev-timestamp": "0.0.1",
+    "handlebars-helpers": "^0.10.0"
+  }
+}
